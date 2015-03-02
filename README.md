@@ -1,3 +1,48 @@
+# Highlight.js Bower Shim
+
+Install with:
+
+```
+bower install highlight.js=Financial-Times/highlight.js-shim --save
+```
+
+## Usage:
+
+Example with jQuery (`bower install jquery`):
+
+```js
+'use strict';
+
+var $ = require('jquery');
+var hljs = require('highlight.js');
+hljs.configure({
+	languages: [
+		'javascript',
+		'xml',
+		'json',
+		'scss',
+		'css',
+		'ruby',
+		'diff',
+		'makefile',
+		'markdown',
+		'php',
+		'python',
+		'java',
+		'sql',
+		'bash',
+		'handlebars',
+		'nginx',
+		'perl',
+		'scala'
+	]
+});
+
+$(function() {
+	hljs.initHighlighting();
+});
+```
+
 # Highlight.js
 
 [![Build Status](https://travis-ci.org/isagalaev/highlight.js.svg?branch=master)](https://travis-ci.org/isagalaev/highlight.js)
