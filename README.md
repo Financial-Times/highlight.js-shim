@@ -1,12 +1,12 @@
 # Highlight.js Bower Shim
 
-Install with:
+## Installation
 
 ```
 bower install highlight.js=Financial-Times/highlight.js-shim --save
 ```
 
-## Usage:
+## Usage
 
 Example with jQuery (`bower install jquery`):
 
