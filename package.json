@@ -604,23 +604,11 @@
     "url": "git://github.com/isagalaev/highlight.js.git"
   },
   "main": "./lib/index.js",
-  "scripts": {
-    "test": "mocha test/"
-  },
+  "scripts": {},
   "engines": {
     "node": "*"
   },
-  "devDependencies": {
-    "commander": "^2.3.0",
-    "del": "^0.1.2",
-    "gear": "^0.9.4",
-    "gear-lib": "^0.9.1",
-    "glob": "^4.0.5",
-    "jsdom": "^1.0.3",
-    "lodash": "^2.4.1",
-    "mocha": "^2.0.1",
-    "should": "^4.0.4"
-  },
+  "devDependencies": {},
   "_id": "highlight.js@8.4.0",
   "dist": {
     "shasum": "dc0d05b8dc9b110f13bce52cb96fd1e0c6bc791c",
